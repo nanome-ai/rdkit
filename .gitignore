@@ -34,7 +34,8 @@ __pycache__/
 *~
 
 #- Files created during build phase
-/build*/
+/build/**
+!/build/build.bat
 /Docs/Book/_build*/
 
 /Code/RDBoost/test.h

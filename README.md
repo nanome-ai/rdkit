@@ -1,3 +1,16 @@
+### Nanome build notes
+
+#### How to build?
+
+- Go to build folder
+- Run build.bat
+- In build, open RDKit.sln
+- Add existing project "Code/JavaWrappers/csharp_wrapper/RDKit2DotNet.csproj"
+- Add RDFuncs project as a dependency to RDKit2DotNet project
+- Switch to Release mode and build RDKit2DotNet project
+
+To reset everything: rename .gitignore to something else, revert everything
+
 # RDKit
 [![Azure build Status](https://dev.azure.com/rdkit-builds/RDKit/_apis/build/status/rdkit.rdkit?branchName=master)](https://dev.azure.com/rdkit-builds/RDKit/_build/latest?definitionId=1&branchName=master)
 [![Documentation Status](https://readthedocs.org/projects/rdkit/badge/?version=latest)](http://rdkit.readthedocs.org/en/latest/)
