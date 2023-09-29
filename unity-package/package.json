@@ -1,0 +1,6 @@
+{
+  "name": "com.nanome.rdkit",
+  "version": "1.0.0",
+  "displayName": "RDKit - Nanome",
+  "description": "C# wrappers of Nanome version of RDKit"
+}
