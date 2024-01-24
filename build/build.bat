@@ -20,7 +20,6 @@ cmake -DRDK_BUILD_SWIG_WRAPPERS=ON^
 	-DBOOST_USE_STATIC_LIBS=ON^
 	-DRDK_INSTALL_STATIC_LIBS=ON^
 	-DRDK_BUILD_COMPRESSED_SUPPLIERS=ON^
-	-DRDK_BUILD_CPP_TESTS=OFF^
 	-DBOOST_ROOT="C:/boost_1_81_0"^
 	-DFREETYPE_LIBRARY="C:/freetype-windows-binaries-2.13.2/static/vs2015-2022/win64/freetype.lib"^
 	-DFREETYPE_INCLUDE_DIRS="C:/freetype-windows-binaries-2.13.2/include"^

@@ -1,6 +1,8 @@
-### Nanome build notes
+## Nanome build notes
 
-#### How to build?
+### How to build?
+
+#### Windows
 
 - Go to build folder
 - Run build.bat
@@ -10,6 +12,15 @@
 - Switch to Release mode and build RDKit2DotNet project
 
 To reset everything: rename .gitignore to something else, revert everything
+
+#### Android (compiled on Linux)
+
+Requires cmake, android sdk, ndk, platform tools, tools, build tools, openjdk, boost, freetype
+
+- Go to build_android folder
+- Run build.sh
+- Run make (with -j8 for instance to go faster)
+- Run make install
 
 # RDKit
 [![Azure build Status](https://dev.azure.com/rdkit-builds/RDKit/_apis/build/status/rdkit.rdkit?branchName=master)](https://dev.azure.com/rdkit-builds/RDKit/_build/latest?definitionId=1&branchName=master)

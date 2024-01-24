@@ -3,7 +3,8 @@
 /Code/JavaWrappers/gmwrapper/doc/*
 /Code/JavaWrappers/gmwrapper/build/*
 /Code/JavaWrappers/gmwrapper/build-test/*
-/Code/JavaWrappers/csharp_wrapper/swig_csharp
+/Code/JavaWrappers/csharp_wrapper/swig_csharp/*
+!/Code/JavaWrappers/csharp_wrapper/swig_csharp/RDKFuncsPINVOKE.cs
 /Data/Fonts/ComicNeue-*
 /Data/Fonts/OFL.txt
 /vcpkg/*
@@ -25,7 +26,6 @@
 
 #- Binary files
 __pycache__/
-*.so
 *.pyc
 /lib/
 *.pyd
@@ -35,7 +35,9 @@ __pycache__/
 
 #- Files created during build phase
 /build/**
+/build_android/**
 !/build/build.bat
+!/build_android/build.sh
 /Docs/Book/_build*/
 
 /Code/RDBoost/test.h
